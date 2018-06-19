@@ -1,4 +1,4 @@
-#Homework Booking
+# Booking Cola Day
 
 Welcome in this project! A brief explanation of the code and how to use it will
 be presented.
@@ -122,6 +122,8 @@ build/contracts directory
 ## Installation
 
 The installation is quite boring for the moment, sorry for that.
+
+You will need to create a .env file with a key REACT_APP_JWT_KEY=< stuff that you want >.
 
 Node version: 8.11.2, Npm version: 5.6.0, web3: 1.0.0-beta.34.
 
