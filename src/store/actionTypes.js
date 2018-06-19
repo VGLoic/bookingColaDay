@@ -1,0 +1,9 @@
+export const REMOVE_ERROR = 'REMOVE_ERROR';
+export const ADD_ERROR = 'ADD_ERROR';
+export const LOADING_USER = 'LOADING_USER';
+export const SET_USER = 'SET_USER';
+export const LOADING_BOOKING = 'LOADING_BOOKING';
+export const LOAD_BOOKING_GUEST = 'LOAD_BOOKING_GUEST';
+export const LOAD_BOOKING = 'LOAD_BOOKING';
+export const START_TRANSACTION = 'START_TRANSACTION';
+export const END_TRANSACTION = 'END_TRANSACTION';

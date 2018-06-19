@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  height: 100%;
+  overflow: auto;
+}
+
+.App {
+  height: 100%;
+  overflow: auto;
+}
+
+.cola-day {
+  font-family: 'Lobster', cursive;
+}
+
+.loader {
+  border: 0.8vmin solid #000000;
+  padding: 1vmin;
+  width: 12vmin;
+  height: 12vmin;
+  margin: auto;
+  border-top-color: #ED1C16;
+  border-bottom-color: #ED1C16;
+  border-radius: 50%;
+  animation: coloredSpin 4s linear infinite;
+}
+
+@keyframes coloredSpin {
+  0% {
+    transform: rotate(0deg) scale(0.95);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.95);
+  }
+}

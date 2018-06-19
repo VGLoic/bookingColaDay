@@ -1,0 +1,181 @@
+.dashboard {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* background: rgb(240, 240, 240); */
+  background: linear-gradient(to right top, rgb(0, 0, 0), rgb(100, 100, 100), rgb(0, 0, 0));
+}
+
+.dashboard .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/***** PEPSI *****/
+
+/* Pepsi message */
+.dashboard .pepsi-message {
+  color: rgb(245, 245, 245);
+  margin: 5rem auto;
+}
+
+/***** COKE ****/
+
+.dashboard .container.coke-handler {
+  margin-top: 3rem;
+  color: rgb(245, 245, 245);
+}
+
+.dashboard .container.coke-handler .loading-item {
+  margin: 5rem auto;
+}
+
+.dashboard .container.coke-handler .schedules-grid {
+  margin-top: 3rem;
+}
+
+.dashboard .container.coke-handler .schedules-grid .room-time-choice {
+  margin: 1rem auto;
+}
+
+.dashboard .container.coke-handler .schedules-grid .room-time-choice .btn {
+  border: .5px solid rgb(240, 240, 240);
+}
+
+.dashboard .container.coke-handler .schedules-grid .index-choice {
+  margin: 2rem auto;
+}
+
+.dashboard .container.coke-handler .schedules-grid .index-choice .btn {
+  border: .5px solid rgb(240, 240, 240);
+}
+
+.dashboard .container.coke-handler .schedules-grid .btn.chosen {
+  background: rgb(210, 210, 210);
+  color: rgb(100, 100, 100);
+  /* border: 1px solid rgb(100, 100, 100); */
+}
+
+.dashboard .container.coke-handler .ipfs-link {
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+}
+
+.dashboard .container.coke-handler .schedules-grid .list-group {
+  margin: 1rem auto;
+  width: 30%;
+}
+
+.dashboard .container.coke-handler .schedules-grid .list-group .list-group-item {
+  font-size: 0.9rem;
+  background: rgb(240, 240, 240);
+  color: rgb(100, 100, 100);
+}
+
+
+
+/**** PARTNERS *****/
+
+/* Loading Item */
+
+.dashboard .partners-handler .loading-item {
+  color: rgb(245, 245, 245);
+}
+
+.dashboard .partners-handler .loading-item div {
+  margin: 2rem auto;
+}
+
+/* Title */
+
+.dashboard .partners-handler .welcome-message {
+  margin: 1.2rem 0 .5rem 0;
+  color: rgb(245, 245, 245);
+}
+
+.dashboard .partners-handler .welcome-message .target-is-owner-btn {
+  margin-left: .7rem;
+  font-size: .8rem;
+}
+
+/* Transaction Item */
+.dashboard .partners-handler .transaction-item {
+  color: rgb(245, 245, 245);
+  margin: 1.2rem 0 .5rem 0;
+}
+
+.dashboard .partners-handler .transaction-item .loader {
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: .2rem;
+  margin-top: 0;
+}
+
+/* Booked message */
+.dashboard .partners-handler .booked-item {
+  color: rgb(245, 245, 245);
+  margin: 1.2rem 0 .5rem 0;
+  padding: 0;
+}
+
+.dashboard .partners-handler .booked-item .btn.btn-warning {
+  color: rgb(245, 245, 245);
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  background-color: rgb(210, 210, 210);
+  border: .5px solid rgb(245, 245, 245);
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  transition: all .6s linear .1s;
+  margin-bottom: .5rem;
+}
+
+.dashboard .partners-handler .booked-item .btn.btn-warning:hover {
+  background-color: rgb(237, 28, 22);
+}
+
+/* Schedules grid */
+
+.dashboard .partners-handler .schedules-grid .schedule-item {
+  margin: 0.8rem 0;
+}
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card {
+  border: 0;
+  width: 80%;
+  box-shadow: 0.5px 0.5px rgba(10, 10, 10, 0.5), 1px 1px rgba(10, 10, 10, 0.3), 2px 2px rgba(10, 10, 10, 0.1);
+  margin: 0 auto;
+}
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-header {
+  background: linear-gradient(to right top, rgba(237, 28, 22, 1), rgba(237, 28, 22, 0.7), rgba(237, 28, 22, 1));
+  border-bottom: 1px solid black;
+}
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-header:hover {
+  cursor: pointer;
+}
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-body {
+  background: rgb(245, 245, 245);
+  padding: 0.9rem 0;
+}
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-body .card-subtitle {
+  font-size: 0.9rem;
+}
+
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-body .collapse {
+  margin-top: 0.5rem;
+}
+
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-body .btn.btn-info {
+  background-color: rgb(192,192,192);
+  border: .5px solid white;
+  font-size: 0.8rem;
+  transition: all .5s linear .1s;
+}
+.dashboard .partners-handler .schedules-grid .schedule-item .card .card-body .btn.btn-info:hover {
+  opacity: 0.5;
+}

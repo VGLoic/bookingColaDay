@@ -1,0 +1,48 @@
+.pepsi {
+  /* margin-top: -100px; */
+  display: inline-block;
+  /* float: right; */
+  border-radius: 50%;
+  background: #34588e;
+  /* height: 300px; */
+  /* width: 300px; */
+  height: 100px;
+  width: 100px;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+  /* transform: scale(0.3); */
+}
+
+.pepsi:after {
+  border-radius: 50%;
+  background: #da473c;
+  /* height: 500px; */
+  /* width: 550px; */
+  height: 166.66666px;
+  width: 183.33333px;
+  content: "";
+  position: absolute;
+  /* top: -275px; */
+  /* left: -300px; */
+  top: -91.66667px;
+  left: -100px;
+  z-index: 2;
+}
+
+.pepsi:before {
+  border-radius: 25%;
+  background: #fff;
+  /* height: 400px; */
+  /* width: 500px; */
+  height: 133.3333px;
+  width: 166.6666px;
+  content: "";
+  position: absolute;
+  /* top: -170px; */
+  /* left: -240px; */
+  top: -56.6666px;
+  left: -80px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
